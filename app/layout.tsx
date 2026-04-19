@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: 'Clean Logic Solutions',
     description: 'Professional cleaning logistics for Bristol & Bath.',
-    url: 'https://cleanlogic.co.uk', // Change this to your live domain
+    url: 'https://clean-logic.vercel.app', // Change this to your live domain
     siteName: 'Clean Logic',
     images: [
       {
