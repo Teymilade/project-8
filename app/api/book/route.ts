@@ -34,7 +34,7 @@ export async function POST(request: Request) {
     try {
       await resend.emails.send({
         from: 'Clean Logic Bookings <onboarding@resend.dev>', // Change to your verified domain later
-        to: 'your-personal-email@gmail.com', // MUST CHANGE: Put your actual email address here
+        to: 'cleanlogicsolutions@gmail.com', // MUST CHANGE: Put your actual email address here
         subject: `New Booking Request: ${body.name}`,
         html: `
           <h2>New Domestic Cleaning Booking</h2>

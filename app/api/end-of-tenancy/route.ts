@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     // 1. Send Email Notification to the Admin
     await resend.emails.send({
       from: 'Acme <onboarding@resend.dev>', // Change this to your domain later e.g., 'bookings@cleanlogic.com'
-      to: 'cleanlogic@gmail.com', // PUT YOUR ACTUAL EMAIL HERE
+      to: 'cleanlogicsolutions@gmail.com', // PUT YOUR ACTUAL EMAIL HERE
       subject: `New End of Tenancy Quote Request: ${body.customerName}`,
       html: `
         <h2>New Quote Request Received</h2>
