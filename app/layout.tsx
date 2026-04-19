@@ -8,23 +8,30 @@ import { AuthProvider } from '@/lib/auth-context';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Clean Logic Solutions - Professional Cleaning Services in Bristol & Bath',
-  description: 'Data-driven cleaning logistics for Bristol & Bath. Domestic, commercial, Airbnb turnovers, and end of tenancy cleaning services.',
+export const metadata = {
+  title: 'Clean Logic Solutions | Bristol & Bath Cleaning',
+  description: 'Professional, reliable, and vetted domestic and commercial cleaning logistics for Bristol and Bath. You relax, we handle the details.',
   openGraph: {
+    title: 'Clean Logic Solutions',
+    description: 'Professional cleaning logistics for Bristol & Bath.',
+    url: 'https://cleanlogic.co.uk', // Change this to your live domain
+    siteName: 'Clean Logic',
     images: [
       {
-        url: 'https://bolt.new/static/og_default.png',
+        url: '/logo.png', // This tells iMessage/WhatsApp to use your new logo!
+        width: 1200,
+        height: 630,
+        alt: 'Clean Logic Solutions Logo',
       },
     ],
+    locale: 'en_GB',
+    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    images: [
-      {
-        url: 'https://bolt.new/static/og_default.png',
-      },
-    ],
+    title: 'Clean Logic Solutions',
+    description: 'Professional cleaning logistics for Bristol & Bath.',
+    images: ['/logo.png'],
   },
 };
 
