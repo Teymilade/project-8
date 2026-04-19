@@ -1,0 +1,6 @@
+<svg width="160" height="40" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="8" fill="#003366"/>
+  <path d="M20 10L30 15V25L20 30L10 25V15L20 10Z" fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M20 20L25 22.5V27.5L20 30L15 27.5V22.5L20 20Z" fill="#003366"/>
+  <text x="48" y="25" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#003366">Clean Logic</text>
+</svg>
